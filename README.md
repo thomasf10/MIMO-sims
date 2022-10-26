@@ -25,4 +25,4 @@ With $\boldsymbol{\mathrm{r}}\in \mathbb{C}^{K\times1}$ being the received signa
 - [ ] Implement some channel models
 - [ ] Implement some equalizers
 - [ ] Implement PA models
-- [ ] 
+
