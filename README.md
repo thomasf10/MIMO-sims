@@ -17,10 +17,28 @@ $$\boldsymbol{\mathrm{r}} = \boldsymbol{\mathrm{H}}^{T} \boldsymbol{\mathrm{y}} 
 With $\boldsymbol{\mathrm{r}}\in \mathbb{C}^{K\times1}$ being the received signal vector, $\boldsymbol{\mathrm{H}} \in \mathbb{C}^{M\times K}$ the channel matrix and $\boldsymbol{\mathrm{v}}\in \mathbb{C}^{K\times1}$ being a vector with addative complex Gaussian noise.
 
 ## Repo structure
+The repo structure is defined as follows:
+<pre>
+|---src/
+    |---__init__.py
+    |---precoding.py
+    |---equalization.py
+    |---pa.py
+    |---channelModels.py
+    |---utils.py
+|---tests/
+    |---test1.py
+    |---test2.py
+|---simulations/
+    |---sim1.py
+    |---sim2.py
+</pre>
+The src folder contains the 'library' code which can be used to generate specific simulations which are stored in the simulations folder.
+Additonally there is a tests folder which can be used to write tests for the code in the src folder.
 
 ## To Do
 - [x] Define system model
-- [ ] Define repo structure
+- [x] Define repo structure
 - [ ] Implement some precoders
 - [ ] Implement some channel models
 - [ ] Implement some equalizers
