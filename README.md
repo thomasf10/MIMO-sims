@@ -13,9 +13,16 @@ After precoding the symbols are amplified (which can be a linear amplification i
 $$\boldsymbol{\mathrm{y}} = \phi(\boldsymbol{\mathrm{x}}),$$
 where $\phi(\cdot)$ denotes the elementwise nonlinear transformation caused by the power amplifier.
 The received signal can then be obtained as
-$$\boldsymbol{\mathrm{r}} = \boldsymbol{\mathrm{H}}^{\intercal} \boldsymbol{\mathrm{y}} + \boldsymbol{\mathrm{v}}.$$
+$$\boldsymbol{\mathrm{r}} = \boldsymbol{\mathrm{H}}^{T} \boldsymbol{\mathrm{y}} + \boldsymbol{\mathrm{v}}.$$
 With $\boldsymbol{\mathrm{r}}\in \mathbb{C}^{K\times1}$ being the received signal vector, $\boldsymbol{\mathrm{H}} \in \mathbb{C}^{M\times K}$ the channel matrix and $\boldsymbol{\mathrm{v}}\in \mathbb{C}^{K\times1}$ being a vector with addative complex Gaussian noise.
 
 ## Repo structure
 
 ## To Do
+- [x] Define system model
+- [ ] Define repo structure
+- [ ] Implement some precoders
+- [ ] Implement some channel models
+- [ ] Implement some equalizers
+- [ ] Implement PA models
+- [ ] 
